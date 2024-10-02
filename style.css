@@ -1,0 +1,89 @@
+table, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    height: 150px;
+}
+td {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+table tr:nth-of-type(1) {
+	background-color: #048f8f;
+	color: #0A0C00;
+}
+table tr:nth-of-type(2) {
+	background-color: #f5f504;
+	color: #1622FF;
+}
+table tr:nth-of-type(1):hover {
+	background-color: #f5f504;
+	color: #1622FF;
+}
+
+table tr:nth-of-type(2):hover {
+	background-color: #048f8f;
+	color: #0A0C00;
+}
+
+.transform_circle {
+    margin-top: 10px;
+}
+
+.transform_circle > .circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    opacity: 0.7;
+    border: 2px solid black;
+}
+
+.transform_circle > .red {
+    background-color: red;
+    transform: translate(50px, 0px);
+}
+
+.transform_circle > .blue {
+    background-color: blue;
+    transform: translate(17.5px, 65px);
+}
+
+.transform_circle > .green {
+    background-color: green;
+    transform: translate(87.5px, 65px);
+}
+
+.position_circle {
+    margin-top: 10px;
+}
+
+.position_circle > .circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    opacity: 0.7;
+    border: 2px solid black;
+}
+
+.position_circle > .red {
+    background-color: red;
+    top: 180px;
+    left: 350px;
+}
+
+.position_circle > .blue {
+    background-color: blue;
+    top: 245px;
+    left: 317.5px;
+}
+
+.position_circle > .green {
+    background-color: green;
+    top: 245px;
+    left: 387.5px;
+}
